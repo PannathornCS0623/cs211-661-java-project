@@ -1,0 +1,9 @@
+.backgroundColor
+{
+    -fx-background-color: linear-gradient(to right bottom, #efff60, #f6a1ff);
+}
+
+.label
+{
+    -fx-text-fill: #171717;
+}

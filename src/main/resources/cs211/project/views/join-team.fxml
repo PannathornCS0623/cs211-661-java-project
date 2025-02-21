@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" styleClass="backgroundColor" stylesheets="@Style/text-background.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs211.project.controllers.JoinTeamController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="151.0" layoutX="1.0" layoutY="-11.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="1228.0">
+         <fill>
+            <LinearGradient cycleMethod="REPEAT" endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9725490212440491" green="1.0" blue="0.6117647290229797" opacity="0.6000000238418579" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.174496644295302">
+                     <color>
+                        <Color red="1.0" blue="0.615686297416687" opacity="0.6100000143051147" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.4175127446651459" blue="1.0" opacity="0.3400000035762787" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="441.0" layoutY="23.0" text="Team List">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Label>
+      <ListView fx:id="teamListListView" layoutX="107.0" layoutY="162.0" prefHeight="487.0" prefWidth="496.0" stylesheets="@Style/ListView.css" />
+       <Line endX="873.9998779296875" endY="-6.103515625E-5" layoutX="340.0" layoutY="720.0" startX="-354.0" startY="-6.103515625E-5" />
+      <Button layoutX="30.0" layoutY="735.0" mnemonicParsing="false" onAction="#onBack" stylesheets="@Style/button.css" text="Back">
+          <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="round-border" />
+            <String fx:value="label" />
+         </styleClass>
+      </Button>
+       <Button layoutX="140.0" layoutY="735.0" mnemonicParsing="false" onAction="#onHome" stylesheets="@Style/button.css" text="Home">
+           <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="round-border" />
+            <String fx:value="label" />
+         </styleClass>
+      </Button>
+      <Label layoutX="658.0" layoutY="286.0" text="Member Team |">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="708.0" layoutY="380.0" text="Date Start |">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="763.0" layoutY="437.0" text="Time |">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="684.0" layoutY="208.0" text="Name Team |">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="720.0" layoutY="495.0" text="Date End |">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="765.0" layoutY="555.0" text="Time |">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameTeamTeamListLabel" layoutX="848.0" layoutY="208.0" text="nameTeamLabel">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="timeEndTeamListLabel" layoutX="848.0" layoutY="555.0" text="Label">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="timeStartTeamListLabel" layoutX="848.0" layoutY="437.0" text="Label">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="dateEndTeamListLabel" layoutX="848.0" layoutY="495.0" text="Label">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="dateStartTeamListLabel" layoutX="848.0" layoutY="380.0" text="Label">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="memberTeamTeamListLabel" layoutX="848.0" layoutY="286.0" text="memberTeamLabel">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+       <Line endX="889.0" endY="-6.103515625E-5" layoutX="340.0" layoutY="720.0" startX="-350.0" startY="-6.103515625E-5" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="53.0" layoutX="837.0" layoutY="201.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="333.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="53.0" layoutX="839.0" layoutY="277.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="333.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="53.0" layoutX="840.0" layoutY="370.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="333.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="53.0" layoutX="841.0" layoutY="430.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="217.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="53.0" layoutX="841.0" layoutY="489.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="333.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="53.0" layoutX="842.0" layoutY="548.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="216.0" />
+      <Button fx:id="joinButton" layoutX="1016.0" layoutY="628.0" mnemonicParsing="false" onAction="#onJoinTeamActivity" stylesheets="@Style/button.css" text="Join">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="round-border" />
+            <String fx:value="label" />
+         </styleClass>
+      </Button>
+      <Button fx:id="infoButton" layoutX="843.0" layoutY="628.0" mnemonicParsing="false" onAction="#onInfoTeamActivity" stylesheets="@Style/button.css" text="Information">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="round-border" />
+            <String fx:value="label" />
+         </styleClass>
+      </Button>
+   </children>
+</AnchorPane>

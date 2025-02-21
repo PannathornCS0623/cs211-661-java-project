@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" styleClass="backgroundColor" stylesheets="@Style/text-background.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs211.project.controllers.ProfileAccountController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="417.0" layoutX="417.0" layoutY="202.0" opacity="0.69" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="745.0" />
+      <Label layoutX="507.0" layoutY="224.0" text="Name |">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="466.0" layoutY="318.0" text="Username |">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="735.0" layoutY="640.0" mnemonicParsing="false" onAction="#onEditProfile" stylesheets="@Style/button.css" text="Edit Profile">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="round-border" />
+            <String fx:value="label" />
+         </styleClass>
+      </Button>
+      <Button layoutX="40.0" layoutY="735.0" mnemonicParsing="false" onAction="#onBack" stylesheets="@Style/button.css" text="Back">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="round-border" />
+            <String fx:value="label" />
+         </styleClass>
+      </Button>
+      <Label layoutX="539.0" layoutY="401.0" text="Bio |">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameProfileUserLabel" layoutX="639.0" layoutY="224.0" text="nameLabel">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="usernameProfileUserLabel" layoutX="642.0" layoutY="318.0" text="usernameLabel">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="bioProfileUserLabel" alignment="TOP_LEFT" layoutX="644.0" layoutY="400.0" prefHeight="204.0" prefWidth="486.0" text="BioLabel">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="146.0" layoutY="492.0" mnemonicParsing="false" onAction="#onEditImage" stylesheets="@Style/button.css" text="Edit Image">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="round-border" />
+            <String fx:value="label" />
+         </styleClass>
+      </Button>
+      <Circle fx:id="imageCircle" layoutX="214.0" layoutY="334.0" radius="121.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="0.5189394011641993" endY="1.0" startX="0.5113636228171262">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.7843137383460999" blue="0.08235294371843338" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9921568632125854" green="0.09803921729326248" blue="0.9803921580314636" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill></Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="151.0" layoutX="1.0" layoutY="-1.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="1223.0">
+         <fill>
+            <LinearGradient cycleMethod="REPEAT" endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9725490212440491" green="1.0" blue="0.6117647290229797" opacity="0.6000000238418579" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.174496644295302">
+                     <color>
+                        <Color red="1.0" blue="0.615686297416687" opacity="0.6100000143051147" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.4175127446651459" blue="1.0" opacity="0.3400000035762787" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="502.0" layoutY="26.0" text="Profile">
+         <font>
+            <Font name="Microsoft YaHei" size="72.0" />
+         </font>
+         <effect>
+            <DropShadow height="31.53" radius="15.557500000000001" width="32.7">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="43.0" layoutX="487.0" layoutY="220.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="109.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="43.0" layoutX="450.0" layoutY="314.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="146.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="43.0" layoutX="529.0" layoutY="399.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="68.0" />
+      <Line endX="884.2000732421875" endY="-6.103515625E-5" layoutX="340.0" layoutY="720.0" startX="-339.9999694824219" startY="-6.103515625E-5" />
+   </children>
+</AnchorPane>

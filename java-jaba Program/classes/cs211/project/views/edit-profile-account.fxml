@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" styleClass="backgroundColor" stylesheets="@Style/text-background.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs211.project.controllers.EditProfileAccountController">
+   <children>
+      <Label layoutX="321.0" layoutY="262.0" text="Name |">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="279.0" layoutY="198.0" text="Username |">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="241.0" layoutY="487.0" text="Old Password |">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="232.0" layoutY="563.0" text="New Password |">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="351.0" layoutY="343.0" text="Bio |">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="usernameEditProfileUserLabel" layoutX="501.0" layoutY="199.0" text="usernameLabel">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="38.0" layoutY="740.0" mnemonicParsing="false" onAction="#onBack" stylesheets="@Style/button.css" text="Back">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="round-border" />
+            <String fx:value="label" />
+         </styleClass>
+      </Button>
+      <Button layoutX="138.0" layoutY="740.0" mnemonicParsing="false" onAction="#onHome" scaleShape="false" stylesheets="@Style/button.css" text="Home">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="round-border" />
+            <String fx:value="label" />
+         </styleClass>
+      </Button>
+      <Button layoutX="857.0" layoutY="632.0" mnemonicParsing="false" onAction="#onChangePassword" stylesheets="@Style/button.css" text="Change">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="round-border" />
+            <String fx:value="label" />
+         </styleClass>
+      </Button>
+      <TextField fx:id="newPasswordEditProfileUserTextField" layoutX="491.0" layoutY="556.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="bioEditProfileUserTextField" layoutX="492.0" layoutY="335.0" prefHeight="113.0" prefWidth="298.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Button layoutX="857.0" layoutY="391.0" mnemonicParsing="false" onAction="#onChangeBio" stylesheets="@Style/button.css" text="Change">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="round-border" />
+            <String fx:value="label" />
+         </styleClass>
+      </Button>
+      <TextField fx:id="oldPasswordEditProfileUserTextField" layoutX="489.0" layoutY="481.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nameEditProfileUserTextField" layoutX="491.0" layoutY="256.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Button layoutX="856.0" layoutY="255.0" mnemonicParsing="false" onAction="#onChangeName" stylesheets="@Style/button.css" text="Change">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="round-border" />
+            <String fx:value="label" />
+         </styleClass>
+      </Button>
+      <Label layoutX="189.0" layoutY="641.0" text="Confirm Password |">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="confirmPasswordEditProfileUserTextField" layoutX="491.0" layoutY="632.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="151.0" layoutX="-5.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="1223.0">
+         <fill>
+            <LinearGradient cycleMethod="REPEAT" endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9725490212440491" green="1.0" blue="0.6117647290229797" opacity="0.6000000238418579" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.174496644295302">
+                     <color>
+                        <Color red="1.0" blue="0.615686297416687" opacity="0.6100000143051147" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.4175127446651459" blue="1.0" opacity="0.3400000035762787" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="431.0" layoutY="32.0" text="Edit Profile">
+         <font>
+            <Font name="Microsoft YaHei" size="72.0" />
+         </font>
+         <effect>
+            <DropShadow height="31.53" radius="15.557500000000001" width="32.7">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="43.0" layoutX="265.0" layoutY="196.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="146.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="43.0" layoutX="309.0" layoutY="260.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="103.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="43.0" layoutX="333.0" layoutY="339.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="82.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="43.0" layoutX="232.0" layoutY="486.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="183.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="43.0" layoutX="225.0" layoutY="561.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="189.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="43.0" layoutX="181.0" layoutY="637.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="234.0" />
+      <Line endX="868.199951171875" endY="-6.103515625E-5" layoutX="350.0" layoutY="730.0" startX="-350.0000305175781" startY="-6.103515625E-5" />
+   </children>
+</AnchorPane>

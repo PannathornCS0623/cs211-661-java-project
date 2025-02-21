@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" styleClass="backgroundColor" stylesheets="@Style/text-background.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs211.project.controllers.JoinTeamActivityController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" cache="true" height="51.0" layoutX="351.0" layoutY="165.0" stroke="#0000000b" strokeDashOffset="10.0" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="50.0" strokeType="OUTSIDE" strokeWidth="3.0" width="179.0">
+         <fill>
+            <LinearGradient cycleMethod="REPEAT" endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9725490212440491" green="1.0" blue="0.6117647290229797" opacity="0.6000000238418579" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.174496644295302">
+                     <color>
+                        <Color red="1.0" blue="0.615686297416687" opacity="0.6100000143051147" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6200000047683716" green="0.7786547541618347" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" cache="true" height="51.0" layoutX="793.0" layoutY="169.0" stroke="#0000000b" strokeDashOffset="10.0" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="50.0" strokeType="OUTSIDE" strokeWidth="3.0" width="179.0">
+         <fill>
+            <LinearGradient cycleMethod="REPEAT" endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9725490212440491" green="1.0" blue="0.6117647290229797" opacity="0.6000000238418579" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.174496644295302">
+                     <color>
+                        <Color red="1.0" blue="0.615686297416687" opacity="0.6100000143051147" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6200000047683716" green="0.7786547541618347" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="150.0" layoutX="-1.0" layoutY="-1.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="1230.0">
+         <fill>
+            <LinearGradient cycleMethod="REPEAT" endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9725490212440491" green="1.0" blue="0.6117647290229797" opacity="0.6000000238418579" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.174496644295302">
+                     <color>
+                        <Color red="1.0" blue="0.615686297416687" opacity="0.6100000143051147" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.4175127446651459" blue="1.0" opacity="0.3400000035762787" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="257.0" layoutY="29.0" prefHeight="106.0" prefWidth="736.0" text="Team Activity Schedule">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Label>
+      <TextField fx:id="commentJoinUserTeamTextField" layoutX="792.0" layoutY="609.0" prefHeight="80.0" prefWidth="280.0">
+         <font>
+            <Font size="24.0" />
+         </font></TextField>
+      <ListView fx:id="commentJoinUserTeamListView" layoutX="793.0" layoutY="235.0" prefHeight="318.0" prefWidth="354.0" />
+      <ListView fx:id="activityJoinUserTeamListView" layoutX="68.0" layoutY="204.0" prefHeight="241.0" prefWidth="254.0" stylesheets="@Style/ListView.css" />
+      <Label layoutX="354.0" layoutY="171.0" text="Selected Activity">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="355.0" layoutY="231.0" text="Activity Name |">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameJoinUserTeamLabel" alignment="TOP_LEFT" layoutX="351.0" layoutY="283.0" prefHeight="51.0" prefWidth="450.0" text="NameLabel">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="803.0" layoutY="559.0" prefHeight="43.0" prefWidth="239.0" text="Send Your Comment">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="33.0" layoutY="735.0" mnemonicParsing="false" onAction="#onBackJoinUserTeam" stylesheets="@Style/button.css" text="Back">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="round-border" />
+            <String fx:value="label" />
+         </styleClass>
+      </Button>
+      <Button layoutX="1076.0" layoutY="636.0" mnemonicParsing="false" onAction="#onSentJoinUserTeam" prefHeight="51.0" prefWidth="82.0" stylesheets="@Style/button.css" text="Sent">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="round-border" />
+            <String fx:value="label" />
+         </styleClass>
+      </Button>
+      <Button layoutX="128.0" layoutY="735.0" mnemonicParsing="false" onAction="#onHomeJoinTeamEvent" stylesheets="@Style/button.css" text="Home">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="round-border" />
+            <String fx:value="label" />
+         </styleClass>
+      </Button>
+      <Label layoutX="83.0" layoutY="160.0" prefHeight="35.0" prefWidth="207.0" text="Available Activities">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="97.0" layoutY="464.0" prefHeight="35.0" prefWidth="201.0" text="Finished Activities">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ListView fx:id="finishedActivitiesTableView" layoutX="68.0" layoutY="508.0" prefHeight="178.0" prefWidth="254.0" stylesheets="@Style/ListView.css" />
+      <Label layoutX="802.0" layoutY="177.0" text="Comment Chat">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="358.0" layoutY="346.0" text="Activity Information |">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Line endX="1084.199951171875" endY="-6.103515625E-5" layoutX="135.0" layoutY="720.0" startX="-145.0" startY="-6.103515625E-5" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="43.0" layoutX="793.0" layoutY="559.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="239.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="43.0" layoutX="67.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="239.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="43.0" layoutX="68.0" layoutY="459.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="239.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="43.0" layoutX="349.0" layoutY="228.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="179.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="43.0" layoutX="354.0" layoutY="341.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="239.0" />
+      <Label fx:id="informationLabel" layoutX="363.0" layoutY="413.0" text="infoLable">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" styleClass="backgroundColor" stylesheets="@Style/text-background.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs211.project.controllers.JoinEventController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="501.0" layoutX="12.0" layoutY="180.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1170.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.42592594027519226" green="0.9521604776382446" blue="1.0" opacity="0.7099999785423279" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006729475100942127">
+                     <color>
+                        <Color red="0.9647058844566345" green="0.6313725709915161" blue="1.0" opacity="0.7699999809265137" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9725490212440491" green="1.0" blue="0.6117647290229797" opacity="0.8299999833106995" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill></Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" cache="true" height="169.0" layoutX="32.0" layoutY="493.0" stroke="#0000000b" strokeDashOffset="10.0" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="50.0" strokeType="OUTSIDE" strokeWidth="3.0" width="547.0">
+         <fill>
+            <LinearGradient cycleMethod="REPEAT" endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9725490212440491" green="1.0" blue="0.6117647290229797" opacity="0.6000000238418579" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.174496644295302">
+                     <color>
+                        <Color red="1.0" blue="0.615686297416687" opacity="0.6100000143051147" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6200000047683716" green="0.7786547541618347" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000001b" height="53.0" layoutX="417.0" layoutY="376.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="164.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000001b" height="53.0" layoutX="878.0" layoutY="287.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="89.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000001b" height="53.0" layoutX="427.0" layoutY="287.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="152.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000001b" height="53.0" layoutX="876.0" layoutY="210.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="89.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000001b" height="53.0" layoutX="424.0" layoutY="209.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="152.0" />
+      <ImageView fitHeight="150.0" fitWidth="190.0" layoutX="170.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true" />
+       <Label layoutX="48.0" layoutY="532.0" text="Name |">
+          <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="588.0" text="Member |">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="426.0" layoutY="383.0" text="Information |">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="memberEventInfoLabel" layoutX="145.0" layoutY="588.0" text="memberLabel">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+       <Button layoutX="37.0" layoutY="735.0" mnemonicParsing="false" onAction="#onBack" stylesheets="@Style/button.css" text="Back">
+           <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="round-border" />
+            <String fx:value="label" />
+         </styleClass>
+      </Button>
+       <Button fx:id="joinEventButton" layoutX="866.0" layoutY="735.0" mnemonicParsing="false" onAction="#onJoinEvent" prefHeight="51.0" prefWidth="146.0" stylesheets="@Style/button.css" text="Join Event">
+           <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="round-border" />
+            <String fx:value="label" />
+         </styleClass>
+      </Button>
+       <Line endX="1088.2000732421875" endY="-6.103515625E-5" layoutX="135.0" layoutY="720.0" startX="-134.99998474121094" startY="-6.103515625E-5" />
+      <Button fx:id="joinTeamButton" layoutX="1036.0" layoutY="735.0" mnemonicParsing="false" onAction="#onJoinTeam" prefHeight="51.0" prefWidth="146.0" stylesheets="@Style/button.css" text="Join Team">
+          <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="round-border" />
+            <String fx:value="label" />
+         </styleClass>
+      </Button>
+      <Circle fx:id="imageCircle" fill="#ffffffd4" layoutX="235.0" layoutY="337.0" radius="140.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="497.0" layoutY="549.0" />
+      <Label layoutX="442.0" layoutY="219.0" text="Date Start |">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="453.0" layoutY="295.0" text="Date End |">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="885.0" layoutY="221.0" text="Time |">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="886.0" layoutY="296.0" text="Time |">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="dateStartLabel" layoutX="610.0" layoutY="219.0" prefHeight="35.0" prefWidth="247.0" text="dateStartLabel">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="dateEndLabel" layoutX="610.0" layoutY="294.0" prefHeight="35.0" prefWidth="239.0" text="dateEndLabel">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="timeStartLabel" layoutX="1004.0" layoutY="221.0" prefHeight="35.0" prefWidth="157.0" text="timeStartLabel">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="timeEndLabel" layoutX="1008.0" layoutY="299.0" prefHeight="35.0" prefWidth="157.0" text="timeEndLabel">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="infoLabel" alignment="TOP_LEFT" layoutX="598.0" layoutY="382.0" prefHeight="288.0" prefWidth="587.0" text="infoLabel">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+       <Rectangle arcHeight="5.0" arcWidth="5.0" height="151.0" layoutY="-11.0" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="1223.0">
+         <fill>
+            <LinearGradient cycleMethod="REPEAT" endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9725490212440491" green="1.0" blue="0.6117647290229797" opacity="0.6000000238418579" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.174496644295302">
+                     <color>
+                        <Color red="1.0" blue="0.615686297416687" opacity="0.6100000143051147" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.4175127446651459" blue="1.0" opacity="0.3400000035762787" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="241.0" layoutY="24.0" text="EVENT INFORMATION">
+         <font>
+            <Font name="Microsoft YaHei" size="72.0" />
+         </font>
+         <effect>
+            <DropShadow height="31.53" radius="15.557500000000001" width="32.7">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="53.0" layoutX="595.0" layoutY="209.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="264.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="53.0" layoutX="596.0" layoutY="287.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="264.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="53.0" layoutX="977.0" layoutY="210.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="185.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="53.0" layoutX="979.0" layoutY="287.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="185.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="289.0" layoutX="590.0" layoutY="376.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="580.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="53.0" layoutX="115.0" layoutY="522.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="457.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4144461f" height="53.0" layoutX="138.0" layoutY="577.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="196.0" />
+       <Button fx:id="infoButton" layoutX="527.0" layoutY="735.0" mnemonicParsing="false" onAction="#onInfoEvent" prefHeight="51.0" prefWidth="167.0" stylesheets="@Style/button.css" text="Information">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="round-border" />
+            <String fx:value="label" />
+         </styleClass>
+      </Button>
+      <Label fx:id="nameEventInfoLabel" layoutX="119.0" layoutY="535.0" text="nameLabel">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" styleClass="backgroundColor" stylesheets="@Style/text-background.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs211.project.controllers.ManualController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d9e8ff" height="600.0" layoutX="95.0" layoutY="96.0" stroke="BLACK" strokeType="INSIDE" width="1000.0" />
+      <Label layoutX="499.0" layoutY="134.0" text="คำแนะนำการใช้โปรแกรม" textFill="#0900ff">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="304.0" text="5. เมื่อผู้ใช้ได้กดเข้าร่วมอีเว้นท์หรือทีมผู้ร่วมจัดอีเว้นท์ใดไปแล้ว จะเปลี่ยนเป็นการเข้าดูข้อมูลได้แทนและไม่สามารถยกเลิกการเข้าร่วมได้">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="214.0" text="2. บังคับให้ตั้ง Username (ไม่สามารถตั้งซ้ำกันได้), Password (ซ้ำกันได้), Name (ซ้ำกันได้) เพื่อการใช้งานแอปพลิเคชัน">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="244.0" text="3. สามารถแก้ไขข้อมูลส่วนตัวต่างๆ ได้ในหน้า Edit Profile (ผู้ใช้จะไม่สามารถเปลี่ยนข้อมูล Username ของตนเองได้)">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="274.0" text="4. ช่องอัพโหลดรูปภาพควรอัพโหลดเฉพาะไฟล์รูปภาพ โดยควรใช้เป็น png, jpg หรือ gif เท่านั้น">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="184.0" text="1. การกระทำที่ระบบไม่อนุญาตหรือไม่สามารถทำได้จะมีการแสดง Pop up เพื่อแจ้งเตือนให้ผู้ใช้ได้รับทราบ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="334.0" text="6. เมื่อผู้ใช้ได้กดเข้าร่วมทีมผู้ร่วมจัดอีเว้นท์แล้ว จะสามารถสื่อสารและตอบโต้กันได้ในแต่ละกิจกรรมของทีมผู้ร่วมจัดอีเว้นท์">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="364.0" text="7. เมื่อผู้ใช้สร้างอีเว้นท์อย่างน้อย 1 อีเว้นท์ (เลื่อนยศเป็น Creator จาก User) จะมีปุ่ม EventList แสดงเพื่อให้เข้าถึงข้อมูลอีเว้นท์ต่างๆ ได้ง่ายขึ้น">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="394.0" text="8. (จากข้อ 8.) Creator จะสามารถเข้าดูข้อมูลต่างๆ ภายในอีเว้นท์ที่ตนเองเป็นเจ้าของได้ โดยจะไม่มีการเข้าร่วมอีเว้นท์หรือทีมผู้จัดอีเว้นท์จากเจ้าของอีเว้นท์นั้นๆ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="424.0" text="9. ผู้ใช้สามารถกดดูข้อมูลอีเว้นท์ที่เข้าร่วมแล้วได้ในหน้า History ว่าอีเว้นท์ไหนที่ยังจัดอยู่หรืออีเว้นท์ไหนที่สิ้นสุดแล้ว">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="484.0" text="11. การกำหนดเวลาทั้งหมด ต้องกำหนดในรูปแบบ (00:00 จนถึง 23:59) เท่านั้น">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="454.0" text="10. ชื่ออีเว้นท์ไม่สามารถตั้งซ้ำกันได้ ทั้งการสร้างและการแก้ไข">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="514.0" text="12. การสร้างอีเว้นท์จะไม่มีการกำหนดเวลาเปิด/ปิดรับผู้เข้าร่วมอีเว้นท์ แต่สามารถกำหนดหรือแก้ไขข้อมูลได้ในหน้า Edit Event">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="544.0" text="13. ชื่อทีมผู้ร่วมจัดอีเว้นท์ไม่สามารถซ้ำกันภายในอีเว้นท์เดียวกันได้ แต่หากเป็นคนละอีเว้นท์จะสามารถตั้งชื่อทีมผู้ร่วมอีเว้นท์ซ้ำกับอีเว้นท์อื่นๆ ได้">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="574.0" text="14. การสร้างกิจกรรมทั้งของอีเว้นท์และทีมผู้ร่วมจัดอีเว้นท์นั้นไม่สามารถแก้ไขข้อมูลได้ แต่สามารถลบข้อมูลเก่าทิ้งและสร้างใหม่ได้เท่านั้น">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="604.0" text="15. ควรใช้งานระบบและสื่อสารกันอย่างสุภาพ เพื่อการใช้งานของทุกคน ที่สำคัญแอดมินหรือผู้จัดอีเว้นท์สามารถระงับการใช้งานของผู้ใช้ได้">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="560.0" layoutY="720.0" mnemonicParsing="false" onAction="#onBack" styleClass="round-border" stylesheets="@Style/button.css" text="Back">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="143.0" layoutY="634.0" text="16. การพิมพ์ข้อมูลไม่ควรเกินกรอบกล่องข้อความทั้งหมดที่กำหนดไว้ให้ เพราะการแสดงข้อมูลอาจเสียหายได้)">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

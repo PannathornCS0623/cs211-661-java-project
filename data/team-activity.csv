@@ -1,0 +1,92 @@
+Scuba,Staff,Register participants,Register participants and provide event information,true
+Scuba,Staff,Guide,Guided walks around the Island,true
+Scuba,Staff,Take care of safety,Take care of the safety of participants while scuba,true
+Scuba,Staff,scuba instructors,Introduce and teach|scuba to participants,true
+Scuba,Staff,Announcement,Announcement of various information,true
+Dining at Meridian Cruise,Waiter,Prepare ingredients,Prepare every ingredients for chef to cook|before the cruise set sail.,true
+Dining at Meridian Cruise,Waiter,Serving lesson,Take a waiter serving lesson to treat customers nicely.,true
+Dining at Meridian Cruise,Waiter,Serving on cruise,Serve customers when the cruise set sail.,true
+Dining at Meridian Cruise,Waiter,Cleaning,Clean the floor and tables after finished the cruise.,true
+Dining at Meridian Cruise,Waiter,Workshift money,Take the workshift money after finished everything.,true
+Dining at Meridian Cruise,Mini concert,Prepare instruments,Prepare musical and technical instruments |before set sail.,true
+Dining at Meridian Cruise,Mini concert,Sound check,Do the sound check and tune the sound |to the perfect wave.,true
+Dining at Meridian Cruise,Mini concert,Light check,Check the light on the stage before start the concert.,true
+Dining at Meridian Cruise,Mini concert,Play Light&Sound,manage the light and sound during the mini concert.,true
+Dining at Meridian Cruise,Mini concert,Cleaning things,Clean up the stage and take all the instruments |back to the cars.,true
+Omakase premium course Otaru,Sous Chef,Cleanings,Clean the kitchen and chef table for chef,true
+Omakase premium course Otaru,Sous Chef,Prepare course ingredients,Prepare the course |ingredients for chef,true
+Omakase premium course Otaru,Sous Chef,Buying ingredients,Select and buy |course ingredients for chef,true
+Omakase premium course Otaru,Sous Chef,Welcome customers,Welcome customers to restaurant,true
+Omakase premium course Otaru,Sous Chef,Help chef,Help chef making course dishes,true
+Gong Yoo Held Fan's meeting,Staff,Manage registration,Manage to treat customers that |come to have a confirm registration,true
+Gong Yoo Held Fan's meeting,Staff,Manage line up,Manage the customers to line up|to the stage,true
+Gong Yoo Held Fan's meeting,Staff,Manage light & sound,Manage light and sound during the|show performance,true
+Gong Yoo Held Fan's meeting,Staff,Manage customers needs,Handing out meal for customers|during the show performance,true
+Gong Yoo Held Fan's meeting,Staff,Manage souvenirs shop,Manage the souvenirs shop after|the show performance,true
+Big Mountain Concert,Support staff,Lifting,Lift the stage component to build|the stage,true
+Big Mountain Concert,Support staff,Light & Sound,Manage the Light and Sound during|the show,true
+Big Mountain Concert,Support staff,Receptionist,Take care of coming participants in|front of the stage,true
+Big Mountain Concert,Support staff,Food services,Serve meals to the participants at |the arranged boots,true
+Big Mountain Concert,Support staff,Security guard,Do the security check before enter|the stage area,true
+Thailand Game Show 2023,Spare staffs,Lift the equipment,Help main staffs lift the leave out |equipments.,true
+Thailand Game Show 2023,Spare staffs,Prepare the equipment,Help prepare the stage equipments |for event,true
+Thailand Game Show 2023,Spare staffs,Open boots,Help shops organizer open their |boots before the event start,true
+Thailand Game Show 2023,Spare staffs,Stamp participant's wrist,Help main staffs stamp participant's|wrist before they enter the event.,true
+Thailand Game Show 2023,Spare staffs,Check Participant's stamp,Check participant's stamp on their |wrist in case someone enter the event|in improper ways.,true
+Commart Thailand 2023,ฝ่ายสตาฟ,ช่วยขนอุปกรณ์,ช่วยขนอุปกรณ์ที่มาส่งไปส่งที่บูทต่างๆ|ตามที่กำหนด,true
+Commart Thailand 2023,ฝ่ายสตาฟ,ช่วยจัดแถวเข้างาน,ช่วยสตาฟหลักจัดแถวคนเข้างานให้เป็น|ระเบียบ เพื่อความรวดเร็วในการเข้างาน,true
+Commart Thailand 2023,ฝ่ายสตาฟ,ดูแลความเรียบร้อย,สอดส่องดูแลความเรียบร้อยภายในงาน ใน|กรณีที่มีเหต่การณ์ไม่พึงประสงค์ให้เข้าไป|ระงับเหตุเบื่องต้นได้,true
+Commart Thailand 2023,ฝ่ายสตาฟ,ควบคุมคนเข้าออกงาน,ช่วยควบคุมปริมาณคนที่อยู่ในงานและคน|เข้าออกงาน ในกรณีที่คนหนาแน่นให้ส่ง|สัญญานให้คนที่จัดแถวทราบเพื่องดการ|เข้างานชั่วคราว,true
+Commart Thailand 2023,ฝ่ายสตาฟ,ช่วยปิดบูทและปิดงาน,ช่วยบูทต่างๆปิดบูทและเก็บอุปกรณ์ต่างๆให้|เข้าที่เพื่อความเรียบร้อย,true
+Commart Thailand 2023,ฝ่ายสตาฟ,ช่วยขนอุปกรณ์กลับ,วันสุดท้ายของงานในช่วงปิดงาน ช่วยขน|อุปกรณ์ต่างๆไปส่งที่รถขนส่งของแต่ละบูท,true
+AP30 x 30 HOME IS EMPOWERING YOU EXHIBITION,สตาฟรอง,ดูแลการตรวจบัตร,ดูแลเรื่องการตรวจบัตรดิจิทัลและตรวจสัมภาระ|ของผู้เข้างานเพื่อความปลอดภัย,true
+AP30 x 30 HOME IS EMPOWERING YOU EXHIBITION,สตาฟรอง,บรรยายบ้านตัวอย่าง,ช่วยบรรยายลักษณะและส่วนประกอบของ|บ้านตัวอย่างที่อยู่ในงาน โดยจะมีสคริปให้,true
+AP30 x 30 HOME IS EMPOWERING YOU EXHIBITION,สตาฟรอง,ดูแลความปลอดภัย,ช่วยดูแลความปลอดภัยของผู้เข้างาน หาก|มีเหตุการณ์ไม่คาดคิดหรือเหตูการณ์ที่ไม่|เหมาะสมสมารถเข้าไประงับเหตุเบื้องต้นได้,true
+AP30 x 30 HOME IS EMPOWERING YOU EXHIBITION,สตาฟรอง,อำนวยความสะดวก,ช่วยอำนวยความสะดวกให้ศิลปินและผู้เข้างาน|เช่น บอกทาง หรือ เสิร์ฟอาหารว่าง,true
+AP30 x 30 HOME IS EMPOWERING YOU EXHIBITION,สตาฟรอง,จัดเก็บอุปกรณ์,ช่วยจัดและจัดเก็บอุปกรณ์ต่างๆภายในงาน|ทั้งตอนเปิดและปิดงาน,true
+Sky Walk Trip,Guide Tour,Verify,Checking booking.|Checking people.|Prepare everyone.,true
+Sky Walk Trip,Guide Tour,Travel Safely,Keep seeing everyone as possibly|to keep them safe.,true
+Sky Walk Trip,Guide Tour,Clear,Checking their baggage.,true
+Sky Walk Trip,Guide Tour,Tour,Talking to everyone to keep the way.|Give advice to tourists.|Make them have fun.,true
+Sky Walk Trip,Guide Tour,Happy,Don't mind too much just keep|in safety. Let's have some fun|by yourself and enjoy the travelling.,true
+TEDTalk,Guest Service,Understand inside our mind,Service our guest during this activity.,true
+TEDTalk,Guest Service,Have a break at noon,Service our guest during this activity.,true
+TEDTalk,Guest Service,Set our goal,Service our guest during this activity.,true
+TEDTalk,Guest Service,Break,Service our guest during this activity.,true
+TEDTalk,Guest Service,Be positive with all things,Service our guest during this activity.,true
+TEDTalk,Speaker Service,Understand inside our mind (Speaker)),Service our speaker during |this activity.,true
+TEDTalk,Speaker Service,Have a break at noon (Speaker),Service our speaker during |this activity.,true
+TEDTalk,Speaker Service,Set our goal (Speaker),Service our speaker during |this activity.,true
+TEDTalk,Speaker Service,Break (Speaker),Service our speaker during |this activity.,true
+TEDTalk,Speaker Service,Be positive with all things (Speaker),Service our speaker during |this activity.,true
+PetExpo,Pet Expo Staff,Dog running competition Team,service during this activity,true
+PetExpo,Pet Expo Staff,Cat Supermodel Team,service during this activity,true
+PetExpo,Pet Expo Staff,Dog Supermodel Team,service during this activity,true
+PetExpo,Pet Expo Staff,Gold minute Team,service during this activity,true
+PetExpo,Pet Expo Staff,Relaxing with music Team,service during this activity,true
+DekD TCAS,DekD staff,Engineering Team,Service during this activity.,true
+DekD TCAS,DekD staff,Medical Team,Service during this activity.,true
+DekD TCAS,DekD staff,Education Team,Service during this activity.,true
+DekD TCAS,DekD staff,Technology Team,Service during this activity.,true
+DekD TCAS,DekD staff,Communication Team,Service during this activity.,true
+KU Winter,KU Winter Staff,Promote KU winter shop first day Team,Service in this activity,true
+KU Winter,KU Winter Staff,Promote KU winter shop second day Team,service in this activity,true
+KU Winter,KU Winter Staff,Work Shop KU Winter Team,service in this activity,true
+KU Winter,KU Winter Staff,Relaxing with Music first day Team,service in this activity,true
+KU Winter,KU Winter Staff,Relaxing with Music second day Team,service in this activity,true
+Siam Carnival Funfair,สตาฟดูแลเครื่องเล่น,ซ้อมดูแลเครื่องเล่น,มาก่อนเวลาเพื่อซ้อมคุมเครื่องเล่นให้ชำนาญ|เพื่อความปลอดภัยของผู้ร่วมงาน,true
+Siam Carnival Funfair,สตาฟดูแลเครื่องเล่น,ดูแลเครื่องเล่นสำหรับเด็ก,ดูแลควบคุมเครื่องเล่นสำหรับเด็กให้ทำงานได้|ตามปกติ,true
+Siam Carnival Funfair,สตาฟดูแลเครื่องเล่น,ดูแลเครื่องเล่นหมึกยักษ์ Popilo,ดูแลควบคุมเครื่องเล่นหมึกยักษ์ Popilo ให้|ทำงานได้อย่างปกติ,true
+Siam Carnival Funfair,สตาฟดูแลเครื่องเล่น,ดูแลเครื่องเล่น Viking,ดูแลควบคุมเครื่องเล่น Viking ให้ทำงาน|ได้อย่างปกติ อย่างเคร่งครัด! เพื่อความปลอดภัย|ของผู้ร่วมงาน,true
+Siam Carnival Funfair,สตาฟดูแลเครื่องเล่น,ดูแลเครื่องเล่นรถไฟเหาะ Speedy,ดูแลควบคุมเครื่องเล่นรถไฟเหาะ Speedy ให้|ทำงานได้อย่างปกติ อย่างเคร่งครัด! เพื่อ|ความปลอดภัยของผู้ร่วมงาน,true
+Siam Carnival Funfair,สตาฟดูแลเครื่องเล่น,ปิดตัวเครื่องเล่น,ปิดตัวเครื่องเล่นทุกชิ้นให้เรียบร้อยหลังจาก|จบอีเวนต์,true
+THE GATE IMMERSIVE THEATER,สตาฟทั่วไป,ดูแลการจัดแถว,ดูแลเรื่องการจัดแถวคนเข้างานให้เรียบร้อย|เพื่อความรวดเร็วในการเข้างาน,true
+THE GATE IMMERSIVE THEATER,สตาฟทั่วไป,ดูแลความปลอดภัยทั่วไป,ดูแลเรื่องความปลออดภัยทั่วไปของผู้ร่วม|งานในกรณีมีเหตุการณืไม่คาดคิด,true
+THE GATE IMMERSIVE THEATER,สตาฟทั่วไป,ขนส่งอุปกรณ์,ช่วยทีมที่ถูกรับเชิญยกขนอุปกรณ์ต่างๆ,true
+THE GATE IMMERSIVE THEATER,สตาฟทั่วไป,ดูแลอุปกรณ์,สอดส่องดูแลอุปกรณ์ในงาน หากมีผู้ร่วม|งานใช้งานอุปกรณ์ไม่เหมาะสมในเข้าไป|ตักเตือน,true
+THE GATE IMMERSIVE THEATER,สตาฟทั่วไป,ดูแลเรื่องแสงและเสียง,ดูแลเกี่ยวกับแสงและเสียงภายในงาน,true
+Graduation KU 65,Staff ดูแลภายในงาน,ทีมต้อนรับบัณฑิต,คอยดูแลในกิจกรรมนี้,true
+Graduation KU 65,Staff ดูแลภายในงาน,ทีมอาหาร,คอยดูแลในกิจกรรมนี้,true
+Graduation KU 65,Staff ดูแลภายในงาน,ทีมมินิคอนเสิร์ต,คอยดูแลในกิจกรรมนี้,true
+Graduation KU 65,Staff ดูแลภายในงาน,ทีมถ่ายรูป,คอยดูแลในกิจกรรมนี้,true
+Graduation KU 65,Staff ดูแลภายในงาน,ทีมบู้ทกิจกรรม,คอยดูแลในกิจกรรมนี้,true
